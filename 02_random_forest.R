@@ -12,8 +12,6 @@ rf_mod <- rand_forest(trees = 500, min_n = 5) |>
   set_mode("regression")
 
 ## Define recipe 
-# Define a recipe that uses `waterfront`, `sqft_living`, `yr_built`, and `bedrooms` to predict the target/outcome variable. 
-# Add a `step_dummy()` to handle your factor variable(s).
 rf_recipe <- recipe(price_log10 ~ waterfront + sqft_living + yr_built + bedrooms,
                     data = kc_train) |> 
   step_dummy(all_nominal_predictors())
