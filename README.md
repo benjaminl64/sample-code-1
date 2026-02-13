@@ -2,6 +2,8 @@
 
 This sample code is part of an assignment I completed for Northwestern's Data Science with R course, STAT 301-2. This assignment covers workflows and feature engineering. Each R script name reflects the steps of the assignment that were completed in that specific R script. 
 
+Note: File paths in the code do not work as intended in the repo. 
+
 
 ## Citation
 
